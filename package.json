@@ -1,0 +1,32 @@
+{
+  "name": "@lumjs/compat-modelapi",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./model": "./lib/model.js",
+    "./extension": "./lib/extension.js",
+    "./initgroup": "./lib/initgroup.js",
+    "./ws-data": "./lib/ws-data.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.compat-modelapi.js.git"
+  },
+  "dependencies": {
+    "@lumjs/core": "^1.12.1",
+    "@lumjs/compat": "^1.4.0",
+    "@lumjs/jquery-plugins": "^1.2.0",
+    "@lumjs/jquery-formatting": "^1.0.0",
+    "@lumjs/web-debug": "^1.1.0",
+    "@lumjs/webservice": "^1.0.0"
+  },
+  "scripts":
+  {
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
